@@ -3,11 +3,11 @@
 using namespace std;
 class X{
 	public:
-	char a[10];
+	char a[50];
 	
 		X(){
 			cin>>a;
-			cout<<"The string is"<<a<<endl;
+			cout<<"The string is "<<a<<endl;
 		}
 		
 };
@@ -17,7 +17,7 @@ class Y{
 	
 		Y(){
 			cin>>b;
-			cout<<"The string is"<<b<<endl;
+			cout<<"The string is "<<b<<endl;
 		}
 };
 class Z:public X,public Y{
@@ -27,7 +27,7 @@ class Z:public X,public Y{
 		Z(){
 			strcpy(c,a);
 			strcat(c,b);
-			cout<<"The concat string is"<<c<<endl;
+			cout<<"The concat string is "<<c<<endl;
 			
 		}
 };
