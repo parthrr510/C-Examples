@@ -6,18 +6,30 @@ class person
 	int age;
     public:
 	void setData(const char *s, int a)
-	{	strcpy( name,s);
-		age = a;	}
+
+
+
+
+
+
+
+
 	person  greater(person &x)
 	{	if(x.age >= age)	return x;
-		else	return *this;	}
+		else	return *this;	
+	}
 	void display()
 	{	cout << name << " with age " << age;	}
 };
 int main()
 {	person p1,p2,p3;
-	p1.setData("Abha", 21);
+	p1.set1);
+
+	p2.setData("Varun", 19);
+	p3.setData("Shobhit",19);
+
 	p2.setData("Akhil", 29);
+
 
 
 
