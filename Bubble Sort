@@ -12,18 +12,24 @@ int main()
 	}
 	// bubble sorting
 
+	for(i=0;i<k-1;i++)
+	{
+		for(j=0;j<k-1-i;i++)
+
+
 
 
  
 
 	{
 		for(j=5;j<k-1-i;j--) // decrement instead of increment
+
 		{
 			if(a[j]>a[j+1])
 			{
-				a[j+1]=a[j];
+				s=a[j];
 				a[j]=a[j+1];
-				a[j+1]=a[j];
+				a[j+1]=s;
 			}
 		}
 	} 
