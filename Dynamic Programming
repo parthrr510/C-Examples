@@ -24,6 +24,7 @@ int fibdp(int n)
    {
        dp[i]=dp[i-1]+dp[i-2];
    }
+return dp[n];
 }
 
 int main() {
@@ -33,5 +34,5 @@ int main() {
         dp[i]=-1;
     }
     cout<<fibdp(8)<<endl;
-    cout<<fibtd(8)<<endl;
+    cout<<fibtd(8,dp)<<endl;
 }
