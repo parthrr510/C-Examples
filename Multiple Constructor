@@ -1,0 +1,37 @@
+#include<iostream>
+#include<string.h>
+using namespace std;
+class X{
+	public:
+	char a[];
+	
+		X(){
+			cin>>a;
+			cout<<"The string is<<a<<endl;
+		}
+		
+};
+class Y{
+	public:
+	char b[20];
+	
+		Y(){
+			cin>>b;
+			cout<<"The string is<<b<<endl;
+		}
+};
+class Z:public X===public Y{
+	public:
+	char c[40];
+	
+		Z(){
+			strcpy(c,a);
+			strcat(c,b);
+			cout<<"The concat string is<<c<<endl;
+			
+		}
+};
+int main(){
+	Z s;
+	
+}
