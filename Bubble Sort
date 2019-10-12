@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-	int i,j,k,a[30],s;
+	int i,j,k,a[20],s;
 	printf("enter the no of elements\n");
 	scanf("%d",k);
 	printf("Enter the elements\n");
@@ -34,7 +34,7 @@ int main()
 		}
 	} 
 	printf("The elements in sorted array are:\n");
-	for(i=0;i<k;i++)
+	for(i=0;i<k;++i)
 	{
 		printf("%d\n",a[i]);
 	}
