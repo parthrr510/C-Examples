@@ -1,3 +1,4 @@
+// found errors in the loop
 #include<stdio.h>
 int main()
 {
@@ -5,14 +6,18 @@ int main()
 	printf("enter the no of elements\n");
 	scanf("%d",k);
 	printf("Enter the elements\n");
-	for(i=0;i<k;i++)
+	for(i=0;i<k;i++) // increment instead of decrement
 	{
 		scanf("%d",&a[i]);
 	}
 	// bubble sorting
-	for(i=0;i<k-1;i++)
+
+
+
+ 
+
 	{
-		for(j=5;j<k-1-i;j++)
+		for(j=5;j<k-1-i;j--) // decrement instead of increment
 		{
 			if(a[j]>a[j+1])
 			{
