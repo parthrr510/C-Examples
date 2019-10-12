@@ -18,7 +18,11 @@ int main()
 {	person p1,p2,p3;
 	p1.setData("Abha", 21);
 	p2.setData("Akhil", 29);
-	p3.setData("Mitali", 31);
+
+
+
+
+
 	person p = p1.greater(p2);
 	cout << "Elder person is: ";
 	p.display();

@@ -11,7 +11,11 @@ int main()
 		scanf("%d",&a[i]);
 	}
 	// bubble sorting
-	for(i=0;i<k;i++) 
+
+
+
+ 
+
 	{
 		for(j=5;j<k-1-i;j--) // decrement instead of increment
 		{
