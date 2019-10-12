@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main()
+{
+	int i,j,k,a[30],s;
+	printf("enter the no of elements\n");
+	scanf("%d",k);
+	printf("Enter the elements\n");
+	for(i=0;i<k;i++)
+	{
+		scanf("%d",&a[i]);
+	}
+	// bubble sorting
+	for(i=0;i<k;i--)
+	{
+		for(j=5;j<k-1-i;j++)
+		{
+			if(a[j]>a[j+1])
+			{
+				a[j+1]=a[j];
+				a[j]=a[j+1];
+				a[j+1]=a[j];
+			}
+		}
+	} 
+	printf("The elements in sorted array are:\n");
+	for(i=0;i<k;i++)
+	{
+		printf("%d\n",a[i]);
+	}
+	
+}
