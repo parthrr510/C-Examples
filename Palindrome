@@ -16,17 +16,6 @@
          cout << " The reverse of the number is: " << rev << endl;
          if (n == rev)
              cout << " The number is a palindrome.";
-
-         } while (num != 0);
-         cout << " The reverse of the number is: " << rev << endl;
-
-         if (n != rev)
-             cout << " The number %d is a palindrome",n;
-
-
-
-
-
          else
              cout << " The number %d is not a palindrome.",n;
         return 0;
