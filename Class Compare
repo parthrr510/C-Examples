@@ -5,15 +5,7 @@ class person
 {	char name[20];
 	int age;
     public:
-	void setData(const char *s, int a)
-
-
-
-
-
-
-
-
+	void setData(const char *s, int a);
 	person  greater(person &x)
 	{	if(x.age >= age)	return x;
 		else	return *this;	
@@ -24,17 +16,9 @@ class person
 int main()
 {	person p1,p2,p3;
 	p1.set1);
-
-	p2.setData("Varun", 19);
-	p3.setData("Shobhit",19);
-
-	p2.setData("Akhil", 29);
-
-
-
-
-
-
+	p2.setData("Ayush", 19);
+	p3.setData("Shrey",19);
+	p2.setData("Parth", 29);
 	person p = p1.greater(p2);
 	cout << "Elder person is: ";
 	p.display();
